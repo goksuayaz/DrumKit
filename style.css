@@ -1,0 +1,53 @@
+
+.keys {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+}
+.key{
+    border:5px solid rgb(255, 232, 23);
+    border-radius:5px;
+    margin:1rem;
+    font-size:1.5rem;
+    padding:1rem;
+    transition:all 0.04s;
+    width:130px;
+    text-align:center;
+    color:rgb(239, 48, 0);
+    background:rgba(248, 42, 186, 0.4);
+    text-shadow:0 0 5px rgb(82, 0, 0);
+    cursor: pointer;
+    
+}
+
+
+.playing{
+    transform:scale(1.1);
+    border-color:rgb(0, 217, 250);
+}
+
+
+kbd{
+    display: block;
+    font-size:50px;
+
+}
+
+.sound{
+    font-size:1.2 rem;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:rgb(86, 0, 13);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #febdbd;
+    margin: 8;
+}
